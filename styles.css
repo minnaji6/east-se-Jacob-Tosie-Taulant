@@ -5,12 +5,12 @@
 }
 
 body{
-    padding-top: 75px;
+    padding-top: 15px;
     display: flex;
     justify-content: center;
     text-align: center;
     height: 100vh;
-    background-color: lightblue;
+    background-color: lavender;
     font-family: Lucida Handwriting, cursive;
 }
 
@@ -18,6 +18,23 @@ img {
     border: 5px solid rgb(194, 191, 201);
     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
     transition: 0.3s;
+}
+
+#comment-list{
+    list-style: none;
+}
+
+#comment-container{
+    width: 600px;
+    height: 350px;
+    border: 2px solid #333;
+    margin: auto;
+    padding: 15px 35px;
+    background-color: whitesmoke;
+}
+
+#post-container{
+    margin-top: 30px;
 }
 
 .container{

@@ -21,24 +21,43 @@
                 <!-- <img src="https://random.imagecdn.app/500/150"> -->
 
 
-        <div id="comment-container">
-                <div id="social-media-post">
+        <div id="quote-container">
+                <div id="quote">
                 <h2> API QUOTE: <!--API quote in here--> </h2>
         </div>
 
+        <label for="select-quote">Find other quotes:</label>
+        <select id="quote-dropdown" name="select-quote">
+          <option value="a">Today's quote ~</option>
+          <option value="b">Tomorrow's quote </option>
+          <option value="c">Yesterday's quote </option>
+        </select>
 
-        <div class="container">
+        <hr>
+        <div id="comment-container">
+        <h3> Comments: </h3>
+            <ul id="comment-list">
+                <hr>
+                <li>I love it!</li>
+                <!-- <button id="delete-comment">x</button> -->
+                <hr>
+                <li>Wow this is so cool!</li>
+                <hr>
+            </ul>
+        </div>
+
+
+        <div id="post-container"class="container">
          <h2>Leave Them a Comment</h2>
             <form>
-                <textarea placeholder='Add Your Comment'></textarea>
+            <textarea placeholder='Add Your Comment Here'></textarea>
                 <div class="btn">
                     <input type="submit" value='Comment'>
                     <button id='clear'>Cancel</button>
                 </div>
             </form>
-
         </div>
-
+        </hr>
 
     </div>
 
